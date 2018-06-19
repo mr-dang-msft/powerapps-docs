@@ -103,6 +103,25 @@ Now, let's use this ProductRevenue collection in a bar chart:
 
     ![][7]  
 
+## Add a line chart to display your data
+The same data in ProductRevenue can be illustrated in a line chart containing multiple lines.
+
+1. On the **Home** tab, add a screen.]
+
+2. From the **Insert** tab, select **Charts**, and then select **Line Chart**.
+
+3. Select the group of controls that contains the line chart, then select the center of the group to focus only the line chart control.
+
+4. Set the **[Items](controls/properties-core.md)** property of the line chart to ```ProductRevenue```:
+
+    ![][12]
+    
+    By default, the line chart shows one line, or series, that represents the revenue for 2012.
+    
+5. With the line chart still selected, use the property dropdown menu to select **NumberOfSeries**. In the formula bar, set this value to 3.
+
+    The line chart will now show revenue data for each product over three years, each in its own line:
+
 [1]: ./media/use-line-pie-bar-chart/productrevenuecollection.png
 [2]: ./media/use-line-pie-bar-chart/itemsexpression.png
 [3]: ./media/use-line-pie-bar-chart/piechart.png
